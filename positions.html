@@ -1,0 +1,59 @@
+<!-- positions
+
+	1.static 
+	2.absolute
+	3.relative
+	4.fixed
+
+	1.static
+		by default all html elemnts are arranging in static position
+		elements are arranging in stack order.
+		top-left property will not work in static position
+
+	2.absolute:
+		top,left,bottom,right property will work here
+	3.relative:
+		top,left,bottom,right properties will work relatively another element
+	4.fixed:
+		element is going to be fixed at the particular place
+
+		p{
+	width:100px;
+	heigth:100px;
+	background-color:blue
+	position:static
+	/* by default */
+
+
+	<p></p>
+	<p></p>
+	<p></p>
+		}
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>posions-static</title>
+	<style>
+		p{
+			background-color:gray;
+			color: white; 
+			width: 100%;
+			left:30px;
+			padding: 0px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<p style="top:0px;left:0px;position: fixed; "> web development </p>
+	<p style="top:30px;left: 20px "> Lorem ipsum dolor sit amet. </p>
+	<p style="bottom: 0px;left: 0px;position: fixed;"> copy rights </p>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,86 @@
+<!--input types:
+text,password,radio,checkbox,button,submit,reset
+
+<input type="text">
+<input type="password">
+<input type="button"/ value="click me">
+using forms we can create login,signup,and data uploading
+ fieldset: this is for make a part of the form
+ legend: tag for heading of the section
+<fieldset>
+<legend>signup</legend>
+form element....
+</fieldset>
+
+<input type="submit">
+<input type="reset"/>
+<input type="file" value="upload"/>
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form elements</title>
+</head>
+<body>
+
+<form>
+
+
+<fieldset>
+
+	<legend><i><b> signup  </b></i></legend>
+	<label>first name</label>
+	<input type="text" name="firstname"> <br>
+	<label>lastname</label>
+	<input type="text" name="lastname">
+
+</fieldset>
+
+
+
+
+<fieldset>
+
+	<legend><i><b> signin  </b></i></legend>
+	<label>Username</label>
+	<input type="text" name="username"> <br>
+	<label>password</label>
+	<input type="password" name="password">
+	<input type="submit" name="signin" value="signin">
+
+</fieldset>
+ <fieldset>
+ 	<legend><i><b>Gender</b></i></legend>
+ 	<label>male</label>
+ 	<input type="radio" name="Gender" value="male">
+ 	<label>female</label>
+ 	<input type="radio" name="Gender" value="female">
+ 	<label>other</label>
+ 	<input type="radio" name="Gender" value="other">
+ </fieldset>
+ <fieldset>
+ 	<legend><i><b>Hobbies</b></i></legend>
+ 	
+<label>playing</label>
+ 	<input type="checkbox" name="hob">
+<label>reading</label>
+ 	<input type="checkbox" name="hob">
+
+<label>sleeping</label>
+ 	<input type="checkbox" name="hob">
+
+
+ </fieldset>
+ <fieldset>
+ 	<legend><i><b>comments</b></i></legend>
+ 	<textarea width="100%" height="300px"
+ 	style="background-color: lightblue"></textarea>
+
+ </fieldset>
+
+ <input type="submit">
+<input type="file" value="upload">
+</form>
+</body>
+</html>
